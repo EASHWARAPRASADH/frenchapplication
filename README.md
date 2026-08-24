@@ -1,61 +1,151 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1b4b,50:3b82f6,100:ef4444&height=220&section=header&text=FrenchApplication&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Interactive%203D-Powered%20French%20Language%20Learning%20Platform&descFontSize=18&descAlignY=62" width="100%" alt="FrenchApplication Header" />
+</div>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<div align="center">
 
-## About Laravel
+[![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
+[![Laravel Framework](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![Three.js](https://img.shields.io/badge/Three.js-3D%20Globe-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![Vite](https://img.shields.io/badge/Vite-Bundler-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+</div>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 📖 Overview
 
-## Learning Laravel
+**FrenchApplication** is a modern, gamified web platform engineered for immersive French language acquisition. Combining the robust backend architecture of **Laravel 12** with an interactive **React + Three.js** frontend, the platform provides learners with dynamic 3D visualizations, interactive vocabulary mini-games, structured curriculum builders, and real-time comprehension tracking.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## ✨ Key Features
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 🌐 1. Interactive 3D Word Globe
+- Powered by **Three.js** & **React Three Fiber**.
+- Features an animated icosahedron wireframe sphere with continuous smooth rotation.
+- Visualizes global Francophone linguistic hubs with reactive hover effects.
 
-## Laravel Sponsors
+### 🎮 2. Gamified Vocabulary Mini-Games
+- Interactive translation challenges and rapid-fire quiz rounds.
+- Real-time score tracking, streak mechanics, and instant feedback loops.
+- Level progression from beginner (A1/A2) to intermediate (B1/B2) vocabulary.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### 📚 3. Dynamic Lesson Builder & Curriculum
+- Comprehensive module builder allowing structured course organization.
+- Categorized vocabulary decks (travel, business, daily conversation, grammar).
+- Rich audio-pronunciation guides and contextual sentence examples.
 
-### Premium Partners
+### ⚡ 4. High-Performance Modern Stack
+- Blade templating combined with modular React components via Vite.
+- Sleek modern design system utilizing **Tailwind CSS**.
+- Production-ready deployment configurations (Hostinger, Apache `.htaccess`, Nginx).
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## 🛠️ Architecture & Tech Stack
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+| Layer | Technologies |
+| :--- | :--- |
+| **Backend** | PHP 8.2+, Laravel 12 Framework, Artisan, Eloquent ORM |
+| **Frontend** | React 19, TypeScript, Blade Templates, Tailwind CSS, Vite |
+| **3D & Graphics** | Three.js, React Three Fiber, Lucide Icons |
+| **Database** | MySQL / SQLite with automated schema migrations |
+| **Deployment** | Hostinger, Nginx, Apache (`.htaccess`), Vite Static Build |
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 🚀 Getting Started
 
-## Security Vulnerabilities
+### Prerequisites
+- **PHP** >= 8.2 (with OpenSSL, PDO, Mbstring, Tokenizer, XML, Ctype, JSON extensions)
+- **Composer** >= 2.0
+- **Node.js** >= 18.x & **npm**
+- **MySQL** or **PostgreSQL** (or SQLite for local testing)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+### Local Installation
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/EASHWARAPRASADH/FrenchApplication.git
+   cd FrenchApplication
+   ```
+
+2. **Install PHP and Node dependencies:**
+   ```bash
+   composer install
+   npm install
+   ```
+
+3. **Configure Environment:**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+
+4. **Set Database Credentials in `.env`:**
+   ```env
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=french_app
+   DB_USERNAME=root
+   DB_PASSWORD=
+   ```
+
+5. **Run Migrations & Seeders:**
+   ```bash
+   php artisan migrate
+   ```
+
+6. **Start Development Servers:**
+   ```bash
+   # Terminal 1: Start Laravel backend
+   php artisan serve
+
+   # Terminal 2: Start Vite asset compiler
+   npm run dev
+   ```
+   Open **[http://localhost:8000](http://localhost:8000)** in your browser.
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+FrenchApplication/
+├── app/                  # Controllers, Models, Middleware & Services
+├── config/               # Application configuration files
+├── database/             # Migrations, seeders, and model factories
+├── public/               # Web root (compiled assets, index.php)
+├── resources/
+│   ├── js/               # React components, Three.js 3D Globe, Mini-Games
+│   ├── css/              # Tailwind CSS styles and custom themes
+│   └── views/            # Blade template views
+├── routes/               # Web and API route definitions
+├── docs/                 # Deployment guides and technical architecture specs
+└── vite.config.js        # Vite bundler configuration
+```
+
+---
+
+## 🌐 Production Deployment
+
+The project includes specialized deployment configurations and guides:
+- **Hostinger Shared Hosting:** Follow [`HOSTINGER_DEPLOYMENT_GUIDE.md`](./HOSTINGER_DEPLOYMENT_GUIDE.md)
+- **Static Export & Build:** Follow [`STATIC_EXPORT_GUIDE.md`](./STATIC_EXPORT_GUIDE.md)
+- **Deployment Checklist:** See [`DEPLOYMENT_CHECKLIST.md`](./DEPLOYMENT_CHECKLIST.md)
+
+---
+
+## 📄 License
+
+This project is open-source software licensed under the [MIT License](LICENSE).
+
+<div align="center">
+  <sub>Developed with ❤️ by <a href="https://github.com/EASHWARAPRASADH">Eashwara Prasadh</a></sub>
+</div>
